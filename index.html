@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Império Barber — Corte de homem. Mentalidade de rei."
+    />
+    <title>Império Barber</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <meta name="theme-color" content="#0B0B0B" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <header class="nav">
+      <div class="container nav__content">
+        <a href="#" class="logo"> IMPÉRIO </a>
+
+        <nav class="menu">
+          <a href="#servicos">Serviços</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#agendar">Agendar</a>
+        </nav>
+
+        <button class="menu-mobile" id="menuBtn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <div class="btn-wtts">
+      <a href="">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <div class="btn-instagram">
+      <a href="">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__content">
+        <span class="hero__tag"> BARBEARIA PREMIUM </span>
+
+        <h1>Presença começa no visual.</h1>
+
+        <p>Cortes precisos, ambiente premium e execução profissional.</p>
+
+        <div class="hero__buttons">
+          <a href="#agendar" class="btn btn--gold"> Agendar horário </a>
+
+          <a href="#servicos" class="btn btn--ghost"> Serviços </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider">
+      <span>
+        <i class="fa-solid fa-scissors"></i>
+      </span>
+    </div>
+
+    <!-- SERVIÇOS -->
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="section__top">
+          <span>SERVIÇOS</span>
+          <h2>O essencial.<br />Feito direito.</h2>
+        </div>
+
+        <div class="services__grid">
+          <a href="#agendar">
+            <article class="service">
+              <i class="fa-solid fa-scissors"></i>
+
+              <h3>Corte</h3>
+
+              <p>Precisão limpa e alinhamento profissional.</p>
+
+              <strong>R$ 55</strong>
+            </article>
+          </a>
+          <a href="#agendar">
+            <article class="service">
+              <i class="fa-solid fa-fire"></i>
+
+              <h3>Degradê</h3>
+
+              <p>Transição firme e acabamento premium.</p>
+
+              <strong>R$ 75</strong>
+            </article>
+          </a>
+          <a href="#agendar">
+            <article class="service">
+              <i class="fa-solid fa-crown"></i>
+
+              <h3>Combo</h3>
+
+              <p>Corte, barba e presença completa.</p>
+
+              <strong>R$ 165</strong>
+            </article>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider">
+      <span>
+        <i class="fa-solid fa-scissors"></i>
+      </span>
+    </div>
+
+    <!-- SOBRE -->
+    <section class="about" id="sobre">
+      <div class="container about__content">
+        <div class="about__text">
+          <span>SOBRE</span>
+
+          <h2>Menos conversa. Mais padrão.</h2>
+
+          <p>
+            A Império Barber foi criada para homens que valorizam imagem,
+            disciplina e presença.
+          </p>
+        </div>
+
+        <img src="img/berber.jpg" alt="Barbeiro trabalhando" />
+      </div>
+    </section>
+
+    <div class="divider">
+      <span>
+        <i class="fa-solid fa-scissors"></i>
+      </span>
+    </div>
+
+    <!-- GALERIA -->
+    <section class="gallery">
+      <img src="img/corte1.webp" alt="" />
+      <img src="img/corte2.webp" alt="" />
+      <img src="img/corte3.jpg" alt="" />
+    </section>
+
+    <!-- AGENDAMENTO -->
+    <section class="booking" id="agendar">
+      <div class="container booking__content">
+        <div class="booking__text">
+          <span>AGENDAMENTO</span>
+
+          <h2>Reserve seu horário.</h2>
+        </div>
+
+        <form class="form">
+          <input type="text" placeholder="Nome" />
+          <input type="tel" placeholder="Telefone" />
+
+          <select required>
+            <option value="" disabled selected>Escolha um serviço</option>
+
+            <option value="corte">Corte - R$ 55</option>
+
+            <option value="degrade">Degradê - R$ 75</option>
+
+            <option value="combo">Combo - R$ 165</option>
+          </select>
+
+          <button class="btn btn--gold">Agendar</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="whatsapp">
+      <h1>OU</h1>
+      <a href="https://wa.me/5511999999999" target="_blank">
+        Fale conosco no WhatsApp
+      </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__content">
+        <strong>IMPÉRIO BARBER</strong>
+
+        <p>Rua Exemplo, 100 — Centro</p>
+
+        <p>© 2024 Império Barber. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
